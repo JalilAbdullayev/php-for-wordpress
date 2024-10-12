@@ -19,3 +19,15 @@ if (have_posts()) {
 
 get_sidebar();
 get_footer();
+
+// If it's a plugin:
+/**
+ * Plugin Name: My brilliant plugin
+ * Plugin URI: https://brilplugin.com/
+ * Description: This is the best plugin ever written. Activate it an find out why!
+ * Version: 1.0
+ * Author: Jalil Abdullayev
+ * Author URI: https://jalil.dev
+ * License: GPLv2 or later
+ * Text Domain: brilbplugin
+ */
